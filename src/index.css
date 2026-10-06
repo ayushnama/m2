@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "DM Sans", sans-serif;
+  --color-ivory: #faf8f3;
+  --color-forest: #1f3d36;
+  --color-forest-dark: #142a25;
+  --color-sage: #e7eee8;
+  --color-clay: #c4623a;
+  --color-charcoal: #242826;
+  --color-line: #e6e2d9;
+}
+
+body {
+  font-family: var(--font-body);
+  @apply bg-ivory text-charcoal antialiased;
+}
